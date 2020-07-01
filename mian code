@@ -12,7 +12,7 @@ import io.appium.java_client.android.AndroidElement;
 public class ecommerce_First_testcase extends base {
 
 	public static void main(String[] args) throws MalformedURLException {
-		// TODO Auto-generated method stub
+		
       AndroidDriver<AndroidElement> driver= Capabilities();
       driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
       driver.findElement(By.xpath("//*[@text='Female']")).click();
